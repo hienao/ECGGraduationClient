@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_singlewave_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:textColor="@color/Black"/>
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_singlewave"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/White"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_singlewave_del"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textColor="@color/Black"/>
+        <Button
+            android:id="@+id/btn_singlewave_upload"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="上传样本"
+            android:textColor="@color/Black"/>
+    </LinearLayout>
+</LinearLayout>

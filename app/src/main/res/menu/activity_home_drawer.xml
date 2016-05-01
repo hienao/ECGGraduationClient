@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_collectdata"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="数据采集" />
+        <item
+            android:id="@+id/nav_user_info"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="用户信息修改" />
+        <item
+            android:id="@+id/nav_ecg_info"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="心电数据" />
+        <item
+            android:id="@+id/nav_sample_wave"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="样本波形管理" />
+        <item
+            android:id="@+id/nav_local_files"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="本地心电文件管理" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="测试" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="退出" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

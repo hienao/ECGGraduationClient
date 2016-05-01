@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ad_ll"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<TextView
+    android:id="@+id/ad_tv_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:text="未识别出该用户，若该用户有无样本数据请在下方填写用户名登录，反之请点击“重新检测”后重新采集！"/>
+    <EditText
+        android:id="@+id/ad_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/ad_btn_recollect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:text="重新检测"/>
+        <Button
+            android:id="@+id/ad_btn_confirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:text="确认"/>
+    </LinearLayout>
+</LinearLayout>
