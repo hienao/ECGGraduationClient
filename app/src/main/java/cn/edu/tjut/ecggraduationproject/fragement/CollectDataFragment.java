@@ -59,7 +59,6 @@ public class CollectDataFragment extends Fragment {
     private BluetoothAdapter btAdapt;
     /*private String ECGDeviceName = "HMSoft";*/
     private String ECGDeviceName = "RL-20160331QWZE";
-    /*private String ECGDeviceName = "R1X";*/
     private String ECGDeviceAddress;
     private boolean ECGDeviceFlag = false;
     public static MyApplication mApplication;
